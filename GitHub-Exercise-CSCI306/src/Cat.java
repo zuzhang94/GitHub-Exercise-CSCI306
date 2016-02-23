@@ -15,9 +15,9 @@ public class Cat {
 	private static final int EYE_WIDTH = 50;
 	// pick mouth height, width is based on head dimension
 	private static final int MOUTH_HEIGHT = 50;
-	private static final int MOUTH_WIDTH = HEAD_DIMENSION/4;
+	private static final int MOUTH_WIDTH = HEAD_DIMENSION/2;
 	// mouth starts about 40% from left edge of head
-	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
+	private static final int MOUTH_X = HEAD_DIMENSION/5;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 ;
 	
 	// draw will render the Cat on the Graphics object
